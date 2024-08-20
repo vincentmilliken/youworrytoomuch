@@ -76,7 +76,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                     <p className="ml-3 text-sm leading-6 text-gray-600 dark:text-gray-300">
-                    Data Analytics streamlining (North Star, KPI's & Success metrics review)
+                    Data Analytics streamlining (North Star, KPIs & Success metrics review)
                     </p>
                 </li>
                 <li className="flex items-start">
@@ -124,7 +124,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                     <p className="ml-3 text-sm leading-6 text-gray-600 dark:text-gray-300">
-                    Data Analytics streamlining (North Star, KPI's & Success metrics review)
+                    Data Analytics streamlining (North Star, KPIs & Success metrics review)
                     </p>
                 </li>
                 <li className="flex items-start">
