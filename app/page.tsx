@@ -51,6 +51,11 @@ export default function Home() {
     <div className="px-4 py-2 bg-green-500 text-white rounded w-full">Fuck up your competitors</div>
     <div className="px-4 py-2 bg-cyan-500 text-white rounded w-full">Get access to the best lads in tech</div>
     <div className="px-4 py-2 bg-yellow-500 text-black rounded w-full">BUFU</div>
+    <div className="px-4 py-2 bg-blue-500 text-white rounded w-full">Best shit ever</div>
+    <div className="px-4 py-2 bg-green-500 text-white rounded w-full">Fuck up your competitors</div>
+    <div className="px-4 py-2 bg-cyan-500 text-white rounded w-full">Get access to the best lads in tech</div>
+    <div className="px-4 py-2 bg-yellow-500 text-black rounded w-full">BUFU</div>
+
   </div>
 </div>
 
