@@ -45,7 +45,7 @@ export default function Home() {
 
 
 
-<div className="overflow-hidden p-4 border-gray-300 bg-gradient-to-b from-zinc-200  backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+{/* <div className="overflow-hidden p-4 border-gray-300 bg-gradient-to-b from-zinc-200  backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
   <div className="marquee-content flex gap-4 items-center animate-marquee">
     <div className="px-4 py-2 bg-blue-500 text-white rounded w-full">Best shit ever</div>
     <div className="px-4 py-2 bg-green-500 text-white rounded w-full">Fuck up your competitors</div>
@@ -57,7 +57,7 @@ export default function Home() {
     <div className="px-4 py-2 bg-yellow-500 text-black rounded w-full">BUFU</div>
 
   </div>
-</div>
+</div> */}
 
 <div className="grid gap-6 mt-6 md:gap-12 md:grid-cols-2 mx-auto ">   
 
