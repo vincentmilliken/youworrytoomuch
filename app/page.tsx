@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex w-full min-h-screen flex-col items-center justify-between max-sm:mt-24 mb-24">
       
-      <div className="z-10 max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+      {/* <div className="z-10 max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed block px-8 left-0 top-0 w-full max-w-5xl flex mx-auto border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
          The lads agency 
           <code className="font-mono font-bold"> - We will worry about it</code>
@@ -20,28 +20,108 @@ export default function Home() {
          from the lads Vincent & Will
         </p>
       </div>
-    </div>
+    </div> */}
 
-      <div className="flex place-items-center  before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-  
-        <a
-          href="mailto: thelads@wewillworryaboutit.com"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-          Email sign up
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-              Be the first to know when we lauch
-          </p>
-        </a> 
+
+<section>
+  <div className="px-8 py-24 mx-auto md:px-12 lg:px-32 max-w-7xl">
+    <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-24">
+      <div>
+        <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 lg:text-5xl text-balance">
+        Premium on-demand support that   
+          <span className="text-gray-600"> grows your business.</span>
+        </h1>
+        <p className="mt-4 text-base font-medium text-gray-500 text-balance">
+         We are a design & product duo with over 15 years experience working for companies like Meta & Booking.com. The value that we will bring to you busines will increase your conversion rates and double your revenue.
+        </p>
+        <p className="mt-4 text-base font-medium text-gray-500 text-balance">
+         Our unique value will guarantee a increase your conversion rates and double your revenue.
+        </p>
+
+        <div className="flex flex-col items-center gap-2 mx-auto mt-8 md:flex-row">
+                          <button className="inline-flex items-center justify-center w-full h-12 gap-3 px-5 py-3 font-medium text-white duration-200 bg-gray-900 md:w-auto rounded-xl hover:bg-gray-700 focus:ring-2 focus:ring-offset-2 focus:ring-black" aria-label="Primary action">
+                            See our pricing
+                          </button>
+                          <button className="inline-flex items-center justify-center w-full h-12 gap-3 px-5 py-3 font-medium duration-200 bg-gray-100 md:w-auto rounded-xl hover:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" aria-label="Secondary action">
+                            Learn more
+                          </button>
+                        </div>
+
+
       </div>
+      <div className="flex flex-col gap-y-12 text-balance">
+        <div className="flex flex-col gap-4 lg:flex-row">
+          <div>
+            <span className="flex items-center justify-center bg-gray-100 rounded-full size-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" className="text-gray-600 size-4">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"></path></svg></span>
+          </div>
+          <div>
+            <h3 className="font-medium text-gray-900">Increase your conversion rates</h3>
+            <p className="mt-2 text-sm text-gray-500">
+              Our high level experience with A/B testing, we know what will be successful for your businuess. 
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 lg:flex-row">
+          <div>
+            <span className="flex items-center justify-center bg-gray-100 rounded-full size-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" className="text-gray-600 size-4">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"></path>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"></path></svg></span>
+          </div>
+          <div>
+            <h3 className="font-medium text-gray-900">Specialised Design & Product</h3>
+            <p className="mt-2 text-sm text-gray-500">
+              Make screenshots of a particular part of the screen to share quick
+              and easy!
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 lg:flex-row">
+          <div>
+            <span className="flex items-center justify-center bg-gray-100 rounded-full size-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" className="text-gray-600 size-4">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3"></path></svg></span>
+          </div>
+          <div>
+            <h3 className="font-medium text-gray-900">On-demand service & transparant pricing</h3>
+            <p className="mt-2 text-sm text-gray-500">
+              More affordable than specialised agencys, Fast-Paced service that you can cancel at anytime. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+
+
+            
+                <section>
+                <div className="px-8 py-2 mx-auto md:px-12 lg:px-32 max-w-7xl">
+                  <div className="grid items-center grid-cols-1 py-12 lg:grid-cols-4 border-y md:grid-cols-2 border-onyx-800 lg:gap-24">
+                    <div className="mx-auto col-span-full lg:col-span-1 lg:max-w-none lg:mr-auto">
+                      <p className="text-xs text-gray-500">
+                        Some of the mazing companies we have worked with
+                      </p>
+                    </div>
+                    <div className="flex flex-wrap justify-between mt-12 lg:mt-0 md:col-span-3">
+                      <div className="flex justify-center col-span-1 px-8">
+                        <img className="max-h-12" src="https://windstatic.com/images/logos/1.svg" alt="logo" />
+                      </div>
+                      <div className="flex justify-center col-span-1 px-8">
+                        <img className="max-h-12" src="https://windstatic.com/images/logos/2.svg" alt="logo" />
+                      </div>
+                      <div className="flex justify-center col-span-1 px-8">
+                        <img className="max-h-12" src="https://windstatic.com/images/logos/3.svg" alt="logo" />
+                      </div>
+                      <div className="flex justify-center col-span-1 px-8">
+                        <img className="max-h-12" src="https://windstatic.com/images/logos/4.svg" alt="logo" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            
 
 
 
