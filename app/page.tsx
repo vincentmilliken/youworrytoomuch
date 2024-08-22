@@ -29,13 +29,13 @@ export default function Home() {
       <div>
         <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 lg:text-5xl text-balance">
         Premium on-demand support that   
-          <span className="text-gray-600"> grows your business.</span>
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#9867F0] to-[#ED4E50]"> grows your business.</span>
         </h1>
-        <p className="mt-4 text-base font-medium text-gray-500 text-balance">
-         We are a design & product duo with over 15 years experience working for companies like Meta & Booking.com. The value that we will bring to you busines will increase your conversion rates and double your revenue.
+         <p className="mt-4 text-base font-medium text-gray-500 text-balance"> 
+          The value that we will bring to your busines will increase your conversion rates and double your revenue.
         </p>
         <p className="mt-4 text-base font-medium text-gray-500 text-balance">
-         Our unique value will guarantee a increase your conversion rates and double your revenue.
+         Our unique service will guarantee a increase your conversion rates and double your business.
         </p>
 
         <div className="flex flex-col items-center gap-2 mx-auto mt-8 md:flex-row">
@@ -49,7 +49,7 @@ export default function Home() {
 
 
       </div>
-      <div className="flex flex-col gap-y-12 text-balance">
+      <div className="flex flex-col gap-y-12 text-balance mt-12">
         <div className="flex flex-col gap-4 lg:flex-row">
           <div>
             <span className="flex items-center justify-center bg-gray-100 rounded-full size-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" className="text-gray-600 size-4">
@@ -71,8 +71,7 @@ export default function Home() {
           <div>
             <h3 className="font-medium text-gray-900">Specialised Design & Product</h3>
             <p className="mt-2 text-sm text-gray-500">
-              Make screenshots of a particular part of the screen to share quick
-              and easy!
+             Providing our Design & Product skill sets is a unique service that covers a wider range of impact.
             </p>
           </div>
         </div>
@@ -94,9 +93,7 @@ export default function Home() {
 </section>
 
 
-
-            
-                <section>
+              <section>
                 <div className="px-8 py-2 mx-auto md:px-12 lg:px-32 max-w-7xl">
                   <div className="grid items-center grid-cols-1 py-12 lg:grid-cols-4 border-y md:grid-cols-2 border-onyx-800 lg:gap-24">
                     <div className="mx-auto col-span-full lg:col-span-1 lg:max-w-none lg:mr-auto">
@@ -121,6 +118,85 @@ export default function Home() {
                   </div>
                 </div>
               </section>
+
+
+
+<section>
+                <div className="px-8 py-24 mx-auto md:px-12 lg:px-32 max-w-7xl">
+                  <div className="grid gap-12 lg:grid-cols-3">
+                    <div>
+                      <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 lg:text-5xl">
+                        Meet the 
+                        <span className="block text-gray-600">co-founders.</span>
+                      </h1>
+                      <p className="mt-4 text-base font-medium text-gray-500">
+                        Passionate individuals that have excelled in the industry with over 15 years experience.
+                      </p>
+                    </div>
+                    <ul role="list" className="grid gap-12 lg:grid-cols-2 lg:col-span-2">
+                      <li>
+                        <div className="space-y-4">
+                          <div className="aspect-[3/2] p-2 overflow-hidden border rounded-3xl">
+                            <img className="object-cover w-full h-full rounded-2xl" src="./img/vince.jpg" alt="" />
+                          </div>
+                          <div className="inline-flex items-start justify-between w-full">
+                            <div className="space-y-1">
+                              <h3 className="text-lg font-medium leading-6 text-black">
+                                Vincent Milliken
+                              </h3>
+                              <p className="text-base text-gray-500">Designer</p>
+                            </div>
+                            <div>
+                              <ul role="list" className="flex space-x-5">
+                                <li>
+                                  <a href="#_" className="text-gray-400 hover:text-gray-500">
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#_" className="text-gray-400 hover:text-gray-500">
+                                    <span className="sr-only"> Twitter </span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="space-y-4">
+                          <div className="aspect-[3/2] p-2 overflow-hidden border rounded-3xl">
+                          <img className="object-cover w-full h-full rounded-2xl" src="./img/will.jpg" alt="" />
+                          </div>
+                          <div className="inline-flex items-start justify-between w-full">
+                            <div className="space-y-1">
+                              <h3 className="text-lg font-medium leading-6 text-black">
+                              Willem Isbrucker
+                              </h3>
+                              <p className="text-base text-gray-500">Product Director</p>
+                            </div>
+                            <div>
+                              <ul role="list" className="flex space-x-5">
+                                <li>
+                                  <a href="#_" className="text-gray-400 hover:text-gray-500">
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#_" className="text-gray-400 hover:text-gray-500">
+                                    <span className="sr-only"> Twitter </span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            
+            
+                
             
 
 
