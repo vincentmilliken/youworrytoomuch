@@ -265,8 +265,8 @@ export default function Home() {
                 </div>
               </section>
             
-
-              <div className="mx-auto mt-12 mb-12 max-w-7xl px-4l lg:text-center sm:px-6 lg:px-8">
+              <section>
+              <div className="px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl text-center">
                     <div className="max-w-3xl mx-auto lg:max-w-none">
                       <h2 className="text-4xl font-semibold tracking-tighter text-gray-900">
                         Boost your revenue <span className="lg:block"> get started today</span>
@@ -280,6 +280,7 @@ export default function Home() {
                       </ul>
                     </div>
                   </div>
+                </section>
 
 {/* <div className="overflow-hidden p-4 border-gray-300 bg-gradient-to-b from-zinc-200  backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
   <div className="marquee-content flex gap-4 items-center animate-marquee">
