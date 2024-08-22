@@ -28,7 +28,7 @@ export default function Home() {
     <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-24">
       <div>
         <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 lg:text-5xl text-balance">
-        Premium on-demand support that   
+        Premium on-demand partnership that   
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#9867F0] to-[#ED4E50]"> grows your business.</span>
         </h1>
          <p className="mt-4 text-base font-medium text-gray-500 text-balance"> 
@@ -49,7 +49,7 @@ export default function Home() {
 
 
       </div>
-      <div className="flex flex-col gap-y-12 text-balance mt-12">
+      <div className="flex flex-col gap-y-12 text-balance">
         <div className="flex flex-col gap-4 lg:flex-row">
           <div>
             <span className="flex items-center justify-center bg-gray-100 rounded-full size-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" className="text-gray-600 size-4">
@@ -198,8 +198,88 @@ export default function Home() {
             
                 
             
+              <section>
+                <div className="px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl">
+                  <div>
+                    <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 lg:text-5xl text-balance">
+                      Why working with us is highly 
+                      <span className="bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.purple.400),theme(colors.purple.100),theme(colors.pink.300),theme(colors.orange.400),theme(colors.pink.300),theme(colors.purple.100),theme(colors.purple.400))] bg-[length:200%_auto] animate-gradient"> profitable.</span>
+                    </h1>
+                    <p className="mt-4 text-base font-medium text-gray-500 text-balance">
+                      Affordability combined with our fast turn around times makes our services very profitable for your business. 
+                    </p>
+                  </div>
+                  <div className="grid items-center grid-cols-1 gap-6 mt-12 lg:grid-cols-3 lg:gap-24">
+                    <div>
+                      <dl className="flex flex-col gap-4 list-none lg:gap-6 text-pretty">
+                        <div>
+                          <div>❖</div>
+                          <dt className="mt-4 font-medium text-gray-900">
+                            Clear & transparant
+                          </dt>
+                          <dd className="mt-2 text-sm text-gray-500">
+                            This is placeholder text for this usp. Need to fill out and refine 
+                            copy on the site.
+                          </dd>
+                        </div>
+                        <div>
+                          <div>❖</div>
+                          <dt className="mt-4 font-medium text-gray-900">
+                            High business impact
+                          </dt>
+                          <dd className="mt-2 text-sm text-gray-500">
+                          This is placeholder text for this usp. Need to fill out and refine 
+                          copy on the site.
+                          </dd>
+                        </div>
+                      </dl>
+                    </div>
+                    <div className="order-first block w-full mt-12 aspect-square lg:mt-0">
+                      <div className="h-full p-2 overflow-hidden border shadow-lg bg-gray-50 rounded-3xl">
+                        <img alt="#_" className="relative w-full rounded-2xl drop-shadow-2xl" src="./img/graph.png"/>
+                      </div>
+                    </div>
+                    <div>
+                      <dl className="flex flex-col gap-4 list-none lg:gap-6 text-pretty">
+                        <div>
+                          <div>❖</div>
+                          <dt className="mt-4 font-medium text-gray-900">Cancel at any time</dt>
+                          <dd className="mt-2 text-sm text-gray-500">
+                          This is placeholder text for this usp. Need to fill out and refine 
+                          copy on the site.
+                          </dd>
+                        </div>
+                        <div>
+                          <div>❖</div>
+                          <dt className="mt-4 font-medium text-gray-900">
+                            Affordable compared to hiring
+                          </dt>
+                          <dd className="mt-2 text-sm text-gray-500">
+                          This is placeholder text for this usp. Need to fill out and refine 
+                          copy on the site.
+                          </dd>
+                        </div>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            
 
-
+              <div className="mx-auto mt-12 mb-12 max-w-7xl px-4l lg:text-center sm:px-6 lg:px-8">
+                    <div className="max-w-3xl mx-auto lg:max-w-none">
+                      <h2 className="text-4xl font-semibold tracking-tighter text-gray-900">
+                        Boost your revenue <span className="lg:block"> get started today</span>
+                      </h2>
+                      <ul className="flex flex-col items-start justify-center gap-1 mt-12 text-base font-normal tracking-wide text-gray-500 list-none lg:flex-row lg:gap-4">
+                        <li><em>Full refund policy</em></li>
+                        <li className="hidden lg:block">·</li>
+                        <li><em>Cancel at anytime</em></li>
+                        <li className="hidden lg:block">·</li>
+                        <li><em>Dedicated and fast</em></li>
+                      </ul>
+                    </div>
+                  </div>
 
 {/* <div className="overflow-hidden p-4 border-gray-300 bg-gradient-to-b from-zinc-200  backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
   <div className="marquee-content flex gap-4 items-center animate-marquee">
