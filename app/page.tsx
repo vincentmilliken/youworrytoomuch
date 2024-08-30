@@ -269,7 +269,7 @@ export default function Home() {
             <span className="text-lg font-semibold leading-8 tracking-normal text-gray-500">/Per Month</span>
         </div>
         <p className="mt-6 text-base leading-7 text-gray-600 dark:text-slate-200">
-        Product & Design starting as soon as you sign up. No contracts or long onboarding process, real and impactful value, so don´t worry about it. 
+        Product & Design starting as soon as you sign up. No contracts or long onboarding process, real and impactful value, so don&apos;t worry about it. 
 
         </p>
     </div>
@@ -317,7 +317,7 @@ export default function Home() {
             <span className="text-lg font-semibold leading-8 tracking-normal text-gray-500">/Per Month</span>
         </div>
         <p className="mt-6 text-base leading-7 text-gray-600 dark:text-slate-200">
-        Product & Design starting as soon as you sign up. No contracts or long onboarding process, real and impactful value, so don´t worry about it. 
+        Product & Design starting as soon as you sign up. No contracts or long onboarding process, real and impactful value, so don&apos;t worry about it. 
 
         </p>
     </div>
