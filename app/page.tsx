@@ -76,7 +76,7 @@ export default function Home() {
           <div>
             <h3 className="font-medium text-gray-900">On-demand service & transparent pricing</h3>
             <p className="mt-2 text-sm text-gray-500">
-              More affordable than specialized agency's, Fast-Paced service that you can cancel at anytime. 
+              More affordable than specialized agency&apos;s, Fast-Paced service that you can cancel at anytime. 
             </p>
           </div>
         </div>
